@@ -1,9 +1,9 @@
-# Robust Hyperspectral Image Classification: TEG-XGBoost vs 3D-CNN
+# Robust Hyperspectral Image Classification: TEG-XGBoost
 
 ## 📌 1. Overview
-This repository contains the experimental Jupyter Notebook for evaluating the **Texture-Entropy-Gradient (TEG)** descriptor paired with an XGBoost classifier. The project benchmarks this proposed lightweight framework against a state-of-the-art deep learning architecture (Shallow 3D-CNN by Li et al., 2017) using the high-resolution **Pavia University** hyperspectral dataset. 
+This repository contains the experimental Jupyter Notebook for evaluating the **Texture-Entropy-Gradient (TEG)** descriptor paired with an XGBoost classifier. The project benchmarks this proposed lightweight framework using the high-resolution **Pavia University** hyperspectral dataset for testing. 
 
-The primary focus of this research is to evaluate algorithmic stability under severe **Salt-and-Pepper (impulse) noise** and computational efficiency in a few-shot learning scenario (utilizing only 1% to 10% of training data).
+The primary focus of this research is to evaluate algorithmic stability under severe **Salt-and-Pepper (impulse) noise** and computational efficiency in a few-shot learning scenario (utilizing only 1% to 10% (70%) of training data).
 
 ## ⚙️ 2. Core Pipeline & Features
 The notebook is structured to run end-to-end experiments, encompassing data degradation, feature extraction, and model benchmarking:
