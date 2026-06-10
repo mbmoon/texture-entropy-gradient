@@ -1,5 +1,18 @@
 # Robust Hyperspectral Image Classification: TEG-XGBoost
 
+<p align="center">
+  <a href="https://github.com/For2natop1ua/texture-entropy-gradient/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT license">
+  </a>
+  <a href="https://www.python.org/downloads/">
+    <img src="https://img.shields.io/badge/python-3.13%2B-blue" alt="Python 3.13+">
+  </a>
+</p>
+
+<p align="center">
+  <b>M. A. Rybnytskyi</b> · <a href="https://dict.khai.edu/">Department of Information and Communication Technologies</a>, National Aerospace University «Kharkiv Aviation Institute»
+</p>
+
 ## 📌 1. Overview
 This repository contains the experimental Jupyter Notebook for evaluating the **Texture-Entropy-Gradient (TEG)** descriptor paired with an XGBoost classifier. The project benchmarks this proposed lightweight framework using the high-resolution **Pavia University** hyperspectral dataset for testing. 
 

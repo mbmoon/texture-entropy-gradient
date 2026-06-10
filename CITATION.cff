@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Robust Hyperspectral Image Classification: TEG-XGBoost"
+abstract: >
+  Research codebase for robust pixel-wise classification of urban hyperspectral
+  imagery (Pavia University dataset) using the Texture-Entropy-Gradient (TEG)
+  descriptor paired with XGBoost. The project evaluates algorithmic stability
+  under severe Salt-and-Pepper (impulse) noise and benchmarks computational
+  efficiency against a PyTorch 3D-CNN baseline in few-shot learning scenarios
+  (1%–70% training data).
+authors:
+  - family-names: Rybnytskyi
+    given-names: M. A.
+    orcid: "https://orcid.org/0009-0000-1299-1604"
+    affiliation: >
+      Department of Information and Communication Technologies,
+      National Aerospace University «Kharkiv Aviation Institute»
+license: MIT
+repository-code: "https://github.com/For2natop1ua/texture-entropy-gradient"
+date-released: "2025-01-01"
+keywords:
+  - hyperspectral image classification
+  - remote sensing
+  - texture features
+  - entropy
+  - gradient
+  - TEG descriptor
+  - XGBoost
+  - impulse noise
+  - salt-and-pepper noise
+  - Pavia University dataset
+  - few-shot learning
+  - 3D-CNN
+
+# Primary citation — submitted conference paper
+preferred-citation:
+  type: conference-paper
+  title: >
+    Robustness and Efficiency of TEG and XGBoost for Urban Hyperspectral
+    Image Classification under Severe Impulse Noise
+  authors:
+    - family-names: Rybnytskyi
+      given-names: M. A.
+      orcid: "https://orcid.org/0009-0000-1299-1604"
+      affiliation: >
+        Department of Information and Communication Technologies,
+        National Aerospace University «Kharkiv Aviation Institute»
+  conference:
+    name: "2026 IEEE KhPI Week on Advanced Technology"
+    city: Kharkiv
+    country: UA
+    date-start: "2026-10-05"
+    date-end: "2026-10-09"
+  year: 2026
+  status: submitted
